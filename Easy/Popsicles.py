@@ -1,4 +1,4 @@
-nb_siblings, nb_popsicles = int(input('How many siblings ?')), int(input('How many popsicles ?'))
+nb_siblings, nb_popsicles = int(input()), int(input())
 if nb_popsicles/nb_siblings == int(nb_popsicles/nb_siblings):
     print('give away')
 else:
