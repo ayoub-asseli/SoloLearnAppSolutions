@@ -5,7 +5,7 @@ class Program {
         string text = Console.ReadLine();
         foreach (var letter in text){
             if ("/:.;,?*+=%!)(-_€$*'&#@^¨<>`".Contains(letter))
-                text = text.Replace(e, "");
+                text = text.Replace(letter.ToString(), "");
         }
         Console.WriteLine(text);
     }
